@@ -1,28 +1,34 @@
 # MyFlipperStuff
 
 ## Overview
-Welcome to `MyFlipperStuff` – a repository dedicated to custom and modified scripts for the Flipper Zero device. The Flipper Zero is a powerful tool for hardware exploration and hacking. This collection aims to enhance its functionalities through various personalized scripts and configurations.
+Welcome to `MyFlipperStuff` – a repository dedicated to custom and modified scripts for the Flipper Zero device. The Flipper Zero is a versatile tool for hardware exploration and hacking. This collection aims to extend its capabilities with various personalized scripts and configurations across multiple functionalities.
 
-## Contents
-- **Script1**: Description of what this script does. For example, a script for custom RF commands.
-- **Configurations**: Various configuration files for different use cases.
-- [More folders or scripts as they are added]
+## Directory Structure
+- **Applications**: Custom applications developed for the Flipper Zero.
+- **BadUSB**: Scripts and payloads for BadUSB attacks and demonstrations.
+- **GPIO**: General Purpose Input/Output scripts and configurations.
+- **Infrared**: Scripts related to Infrared communications and control.
+- **NFC**: Near Field Communication scripts and tools.
+- **RFID**: Radio Frequency Identification related scripts and tools.
+- **SubGHz**: Scripts for sub-GHz communications and applications.
+
+Each directory contains specific scripts and documentation relevant to that category.
 
 ## Getting Started
-To get started with these scripts, follow these steps:
+To get started with these scripts:
 
 1. Clone this repository to your local machine:
-- git clone [Your Repository URL]
+git clone [Your Repository URL]
 2. Navigate to the `MyFlipperStuff` directory:
-- cd MyFlipperStuff
-3. Follow the individual instructions provided in each script or folder for setup or usage.
+cd MyFlipperStuff
+3. Explore each directory to find the scripts and resources you need.
 
 ## Usage
-- To use a specific script, navigate to its directory and follow the usage instructions provided within.
-- Ensure you understand the functionality of each script before use, especially if they involve hardware interactions.
+- Navigate to the specific directory for the script or tool you want to use.
+- Refer to the individual README files in each directory for detailed instructions on usage.
 
 ## Contributing
-If you're interested in contributing to this project, your input is welcome! Here's how you can contribute:
+Contributions to this project are welcome! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature (`git checkout -b feature/your_feature`).
@@ -31,4 +37,5 @@ If you're interested in contributing to this project, your input is welcome! Her
 5. Open a Pull Request.
 
 ## License
-This project is currently not under any specific license. All scripts and configurations are available for public use.
+This project is not under any specific license and is available for public use.
+
