@@ -1,5 +1,4 @@
-# Ducky Script: Sticky Keys Privilege Escalation
-
+REM Ducky Script: Sticky Keys Privilege Escalation
 REM This script replaces sethc.exe with cmd.exe
 REM When Shift is pressed 5 times at login, a system level cmd prompt will appear
 REM WARNING: This script is for educational purposes only

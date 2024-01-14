@@ -1,10 +1,7 @@
-REM
 REM Script to create a new user
-REM 	   USERNAME: newadmin
-REM	   PASSWORD: password
+REM USERNAME: newadmin
+REM PASSWORD: password
 REM Str1ck9
-REM
-
 
 REM Open Command Prompt
 DELAY 500
